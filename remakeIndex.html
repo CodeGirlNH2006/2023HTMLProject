@@ -77,12 +77,46 @@
             font-size:18px;
             text-align:center;
         }
+        ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow:hidden;
+        }
+        li{
+            float:left;
+        }
+        li a {
+            display: block;
+            color: sienna;
+            text-align:center;
+            font-family: "Comic Sans MS";
+            text-decoration: none;
+            padding: 0px 16px 0px 16px;
+            border-right:1px solid black;
+        }
+        li a:hover{
+            background:lightgoldenrodyellow;
+        }
+        /*Opt active class*/
+        .active{
+            background-color: lightgoldenrodyellow;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="headerAndLogo">Header and Logo Go Here</div>
-        <div class="navigation">Navigation Goes Here</div>
+        <div class="navigation">
+            <ul>
+                <li><a class="active" href="index.html">Home</a> </li>
+                <li><a href="startingOut.html">Starting Out</a></li>
+                <li><a href="expandingTaste.html">Expanding Taste</a></li>
+                <li><a href="aboutCreator.html">About the Creator</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+
+        </div>
         <div class="paragraphs">First two paragraphs go here</div>
         <div class="johnsImage">Image goes here</div>
         <div class="sliderPics">Slider goes here</div>
